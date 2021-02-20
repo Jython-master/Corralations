@@ -1,0 +1,240 @@
+body{
+    font-family: 'Roboto Slab';
+    margin: 0;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    padding: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    color: #FFF;
+    font-weight: 300;
+    text-align: justify;
+    background-color: #27b0d6
+}
+header{
+    position: fixed;
+    width: 100%;
+    top:0;
+    right: 0;
+    left: 0;
+    background-color: #fc665b;
+}
+header a{
+    list-style-type: none;
+    color: #fff;
+    text-decoration: none;
+}
+#logo{
+    height: 60px
+}
+#bar{
+    width: 100%;
+    right: 0;
+    left: 0;
+    top: 0;
+    line-height: 60px;
+    background-color: #fb7268;
+}
+nav{
+    font-size: 20px;
+    float: right;
+    vertical-align: middle;
+}
+nav a{
+    margin-right: 10px;
+    cursor: pointer;
+}
+nav a:hover{
+    text-decoration: underline;
+}
+#main{
+    height: 100%;
+    background-image: url(img/NASA%20SpaceApps.png);
+    background-position: center;
+    background-size: cover;
+}
+#spam{
+    margin-top: 15%;
+    text-align: center
+}
+#spam h2{
+    font-weight: 500;
+    font-size: 36px;
+}
+.button {
+    display: inline-block;
+    border-radius: 17px;
+    background-color: #fb7268;
+    text-align: center;
+    font-size: 15px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 400;
+    vertical-align: middle;
+    border: 0.5px solid #fd7969;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    line-height: 1.5;
+    cursor: pointer;
+    padding: 0.7% 3%;
+}
+.big-button{
+    padding: 0.7rem 1.4rem;
+}
+.blue-button{
+    background-color: #27b0d6;
+    border: 0.5px solid #1ba0a7;
+}
+.button:hover{
+    background-color: #fff;
+    color:  #fb7268;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    line-height: 1.5;
+    cursor: pointer;
+}
+.blue-button:hover{
+    color: #1ba0a7;
+}
+.content{
+    padding-top: 15px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 20px;
+}
+h3{
+    font-size: 32px;
+    font-weight: 400;
+    margin-top: 0; 
+    text-align: center;
+    margin-top: 0;
+}
+#aboutus{
+    background-color: #77b900;
+}
+#aboutus h3{
+    margin-bottom: 15px;
+}
+#aboutus p{
+    text-align: justify;
+}
+.input{
+    font-size: 20px;
+    width: 500px;
+    border-radius: 12px;
+    padding: 5px 10px;
+    display: block;
+    color: #5f656b;
+    background-color: #fff;
+    border: 1px solid #ced4db;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.input:focus {
+    color: #44484c;
+    background-color: #fff;
+    border-color: rgba(117, 183, 255, 0.7);
+    outline: 0;
+    box-shadow: 0 0 0 1px rgba(0, 123, 255, 0.25);
+}
+#subs{
+    color: #000;
+    background-color: #fff;
+}
+#subs h3{
+    margin-bottom: 5px;
+}
+#subs h4{
+    margin-top: 0;
+    margin-bottom: 15px;
+    text-align: center;
+}
+#subs input{
+    margin-bottom: 15px;
+}
+.block{
+    width: 600px;
+    float:right; 
+}
+#submit{
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: 25px;
+}
+footer{
+    bottom: 0;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    text-align: center;
+    background-color: #27b0d6; 
+}
+.blue{
+    background-color: #27b0d6;
+}
+.nb{
+    background-color: #fb7268;
+}
+.other{
+    background-color: #1ba0a7;
+}
+.pink{
+    background-color: #fc665b;
+}
+#map{
+    height: 400px;
+    width: 100%;
+    background-color: blue;
+}
+#do{
+    margin-left: 30%;
+    width: 30%;
+}
+#do2{
+    margin-left: 45%;
+    width: 30%;
+}
+#do3{
+    padding-left: 45%;
+    width: 30%;
+}
+#do4{
+    padding-left: 45%;
+    width: 30%;
+}
+.this h3{
+    font-size: 25px;
+    text-align: center;
+}
+
+.gallery{
+    height: 200px;
+    width: 100%;
+    border-radius: 100%;
+}
+.this{
+    width: 210px;
+    float: left;
+    margin-right: 7.5px;
+    margin-left: 7.5px;
+    border-radius: 10px;
+    background-color: #fc665b;
+    margin-bottom: 50px;
+    padding: 5px;
+}
+.this a{
+    width: 98%;
+    margin-left: -5px;
+    margin-bottom: -5px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #1ba0a7;
+}
+.hide{
+    border-color: #27b0d6;
+}
+.hide:hover{
+    background-color: #27b0d6;
+    cursor: default;
+}
